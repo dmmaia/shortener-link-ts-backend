@@ -1,6 +1,6 @@
 import { Request, Response } from 'express'
 import Link from './link.model'
-import connect from '../database.ts'
+import connect from '../database'
 import short from 'short-uuid'
 
 const collection = "links"
