@@ -12,10 +12,13 @@
   "author": "David Maia",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "short-uuid": "^5.2.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
+    "@types/mongodb": "^4.0.7",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2"
   }
